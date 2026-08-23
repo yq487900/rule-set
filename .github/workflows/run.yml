@@ -8,6 +8,11 @@ on:
       - master
     paths-ignore:
       - "**/README.md"
+
+concurrency:
+  group: ruleset-build
+  cancel-in-progress: true
+
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -845,7 +850,15 @@ jobs:
           git add .
           git commit -m "Auto Update Ruleset ${update_version}"
           git remote add origin "https://${{ github.actor }}:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}"
-          git push -f origin ruleset
+          for attempt in 1 2 3 4 5; do
+              if git push -f origin ruleset; then
+                  echo "Push succeeded on attempt ${attempt}"
+                  exit 0
+              fi
+              echo "Push attempt ${attempt} failed, retrying in 10s..."
+              sleep 10
+          done
+          exit 1
 
       - name: Purge jsdelivr CDN
         run: |
