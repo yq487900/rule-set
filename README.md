@@ -226,22 +226,6 @@ singbox/
       </td>
     </tr>
     <tr>
-      <td><code>dazn</code></td>
-      <td>DAZN 体育流媒体平台
-      <br> 规则源:
-      <a href="https://github.com/blackmatrix7/ios_rule_script">@blackmatrix7/ios_rule_script</a>
-      <a href="https://github.com/MetaCubeX/meta-rules-dat">@MetaCubeX/meta-rules-dat</a>
-      </td>
-    </tr>
-    <tr>
-      <td><code>disney</code></td>
-      <td>迪士尼 视频流媒体平台
-      <br> 规则源:
-      <a href="https://github.com/blackmatrix7/ios_rule_script">@blackmatrix7/ios_rule_script</a>
-      <a href="https://github.com/MetaCubeX/meta-rules-dat">@MetaCubeX/meta-rules-dat</a>
-      </td>
-    </tr>
-    <tr>
       <td><code>dmca</code></td>
       <td>DMCA 敏感域名
       <br> 包含机场审计、Tracker、PT、迅雷以及需要直连的常见软件列表 <br> 规则源:
@@ -344,28 +328,12 @@ singbox/
       </td>
     </tr>
     <tr>
-      <td><code>hbo</code></td>
-      <td>HBO 视频流媒体平台
-      <br> 规则源:
-      <a href="https://github.com/blackmatrix7/ios_rule_script">@blackmatrix7/ios_rule_script</a>
-      <a href="https://github.com/MetaCubeX/meta-rules-dat">@MetaCubeX/meta-rules-dat</a>
-      </td>
-    </tr>
-    <tr>
       <td><code>httpdns</code></td>
       <td>需要屏蔽的 HTTPDNS 列表
       <br> 规则源:
       <a href="https://github.com/VirgilClyne/GetSomeFries">@VirgilClyne/GetSomeFries</a>
       <a href="https://github.com/MetaCubeX/meta-rules-dat">@MetaCubeX/meta-rules-dat</a>
       <a href="https://github.com/SunsetMkt/anti-ip-attribution">@SunsetMkt/anti-ip-attribution</a>
-      </td>
-    </tr>
-    <tr>
-      <td><code>hulu</code></td>
-      <td>Hulu 视频流媒体平台
-      <br> 规则源:
-      <a href="https://github.com/blackmatrix7/ios_rule_script">@blackmatrix7/ios_rule_script</a>
-      <a href="https://github.com/MetaCubeX/meta-rules-dat">@MetaCubeX/meta-rules-dat</a>
       </td>
     </tr>
     <tr>
@@ -392,8 +360,8 @@ singbox/
       </td>
     </tr>
     <tr>
-      <td><code>netflix</code></td>
-      <td>Netflix 视频流媒体平台
+      <td><code>netflixvideos</code></td>
+      <td>六大视频流媒体平台 DAZN 体育流媒体平台、Disney 视频流媒体平台、HBO 视频流媒体平台、Hulu 视频流媒体平台、Netflix 视频流媒体平台、PrimeVideo 视频流媒体平台
       <br> 规则源:
       <a href="https://github.com/blackmatrix7/ios_rule_script">@blackmatrix7/ios_rule_script</a>
       <a href="https://github.com/MetaCubeX/meta-rules-dat">@MetaCubeX/meta-rules-dat</a>
@@ -418,14 +386,6 @@ singbox/
     <tr>
       <td><code>paypal</code></td>
       <td>PayPal 在线支付与转账平台
-      <br> 规则源:
-      <a href="https://github.com/blackmatrix7/ios_rule_script">@blackmatrix7/ios_rule_script</a>
-      <a href="https://github.com/MetaCubeX/meta-rules-dat">@MetaCubeX/meta-rules-dat</a>
-      </td>
-    </tr>
-    <tr>
-      <td><code>primevideo</code></td>
-      <td>PrimeVideo 视频流媒体平台
       <br> 规则源:
       <a href="https://github.com/blackmatrix7/ios_rule_script">@blackmatrix7/ios_rule_script</a>
       <a href="https://github.com/MetaCubeX/meta-rules-dat">@MetaCubeX/meta-rules-dat</a>
