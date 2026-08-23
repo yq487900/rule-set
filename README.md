@@ -361,7 +361,7 @@ singbox/
     </tr>
     <tr>
       <td><code>netflixvideos</code></td>
-      <td>六大视频流媒体平台 DAZN 体育流媒体平台、Disney 视频流媒体平台、HBO 视频流媒体平台、Hulu 视频流媒体平台、Netflix 视频流媒体平台、PrimeVideo 视频流媒体平台
+      <td>影视流媒体平台 DAZN 体育流媒体平台，Disney 视频流媒体平台，HBO 视频流媒体平台，Hulu 视频流媒体平台，Netflix 视频流媒体平台，PrimeVideo 视频流媒体平台
       <br> 规则源:
       <a href="https://github.com/blackmatrix7/ios_rule_script">@blackmatrix7/ios_rule_script</a>
       <a href="https://github.com/MetaCubeX/meta-rules-dat">@MetaCubeX/meta-rules-dat</a>
