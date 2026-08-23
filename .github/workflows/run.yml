@@ -819,6 +819,11 @@ jobs:
               }' "$file" > "surge/$(basename "$file")"
           done
 
+      - name: Clean meta and stash root files
+        run: |
+          rm -f meta/*.list
+          rm -f stash/*.list
+
       - name: Move files to push directory
         run: |
           cp -r singbox/ push/
