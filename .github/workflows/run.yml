@@ -450,6 +450,12 @@ jobs:
               'download/meta/category-social-media-!cn.list' \
           > meta/socialmedia.list
 
+      - name: Merge telegram file
+        run: |
+          cat 'custom/telegram.list' \
+              'download/meta/telegram.list' \
+          > meta/telegram.list
+
       - name: Merge tiktok file
         run: |
           cat 'download/surge/TikTok.list' \
