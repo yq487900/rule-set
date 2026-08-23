@@ -1,6 +1,6 @@
 # rule-set
 ## 项目声明：  
-本项目是根据这个项目[@QuixoticHeart/rule-set](https://github.com/QuixoticHeart/rule-set)进行修改的，如有兴趣请访问原项目内容！！！
+本项目是根据这个项目[@QuixoticHeart/rule-set](https://github.com/QuixoticHeart/rule-set)进行修改的，大部分内容遵从原项目，如有兴趣请访问原项目内容！！！
 > [!CAUTION]
 >
 > **禁止任何形式转载或发布至中国大陆地区**
@@ -2452,7 +2452,3 @@ sing-box 文档关于 [domain_suffix 行为更新](https://sing-box.sagernet.org
 - [@uselibrary/PCDN](https://github.com/uselibrary/PCDN)
 - [@ConnersHua/RuleGo](https://github.com/ConnersHua/RuleGo)
 - [@jmdugan/blocklists](https://github.com/jmdugan/blocklists)
-
-## 项目 Star 数增长趋势
-
-[![Stargazers over time](https://starchart.cc/QuixoticHeart/rule-set.svg?variant=adaptive)](https://starchart.cc/QuixoticHeart/rule-set)
