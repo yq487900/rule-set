@@ -1,6 +1,7 @@
 # rule-set
 ## 项目声明：  
-本项目是根据这个项目[@QuixoticHeart/rule-set](https://github.com/QuixoticHeart/rule-set)进行修改的，大部分内容遵从原项目，如有兴趣请访问原项目内容！！！  
+>
+>本项目是根据这个项目[@QuixoticHeart/rule-set](https://github.com/QuixoticHeart/rule-set)进行修改的，大部分内容遵从原项目，如有兴趣请访问原项目内容！！！  
   
 > [!CAUTION]
 >
